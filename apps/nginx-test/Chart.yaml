@@ -1,0 +1,8 @@
+apiVersion: v2
+name: nginx-test
+version: 0.1.0
+
+dependencies:
+  - name: nginx
+    version: 22.6.5
+    repository: https://charts.bitnami.com/bitnami
