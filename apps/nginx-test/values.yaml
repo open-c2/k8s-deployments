@@ -1,0 +1,7 @@
+# apps/nginx-test/values.yaml
+replicaCount: 2
+image:
+  repository: bitnami/nginx
+  tag: 1.29.6
+service:
+  type: ClusterIP
